@@ -9,7 +9,6 @@
     <link href="css/styles.css" rel="stylesheet" />
   </head>
   <body>
-    <!-- Responsive navbar-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container px-5">
         <a class="navbar-brand" href="#!">이성준`s Portfolio</a>
@@ -32,9 +31,7 @@
         </div>
       </div>
     </nav>
-    <!-- Page Content-->
     <div class="container px-4 px-lg-5 main">
-      <!-- Heading Row-->
       <div class="row gx-4 gx-lg-5 align-items-center my-5">
         <div class="col-lg-3">
           <img
@@ -65,13 +62,11 @@
           </p>
         </div>
       </div>
-      <!-- Call to Action-->
       <div class="card text-white bg-secondary my-5 text-center">
         <div class="card-body">
           <p style="font-size: 18px" class="text-white m-0">💻My Project💻</p>
         </div>
       </div>
-      <!-- Content Row-->
       <div class="row gx-4 gx-lg-5">
         <div class="col-md-4 mb-5">
           <div class="card h-100">
@@ -135,24 +130,32 @@
       </div>
     </div>
     <div class="container px-4 px-lg-5 project" style="display: none">
-      <div class="row gx-4 gx-lg-5">
-        <div class="col-md-4 mb-5">
-          <div class="card h-100">
+      <div style="display: block" class="row gx-4 gx-lg-5">
+        <div style="width: 100%" class="col-md-4 mb-5">
+          <div style="max-width: 700px" class="card h-100">
             <div class="card-body">
               <h2 class="card-title">🎀CELEB🎀</h2>
               <p style="font-size: 14px" class="card-text">
-                <b>소개</b>: 축하 및 기념을 위한 커스터마이징 제품 서비스 <br />
-                <b>기간</b>: 2021.09 ~ 2021.11 <br />
-                <b>포지션</b>: BackEnd <br />
-                <b>수상</b>: 🥉3등 <br />
+                <b>개발목적</b> <br />
+                다양한 커스터마이징 제품이 인기를 끌고 있는 상황을 반영하여, 이러한 커스터마이징 주문 제작을 하는 서비스가 시장에 제대로
+                나와 있지 않음을 확인하고, 다양한 주문제작에 맞는 양식을 제공함으로써, 고객에게 편리함을 제공하기 위해 제작 <br />
+                <br /><b>주요기능</b> <br />
+                1. 커스터마이징 제품 등록 <br />
+                2. 커스터마이징 주문서 양식 제공 <br />
+                3. 지역별 필터링 및 검색 기능 제공 <br />
+                4. 판매자 실적 DashBoard 기능 <br />
+                5. 배너 이벤트 광고 기능 <br />
+                6. 인기 스토어 노출 <br />
+                <br /><b>주요화면</b> <br />
+                <div style="text-align: center">
+                    <img src="assets/celeb.png" style="width: 600px; height: 300px" />
+                    <img src="assets/celeb2.png" style="margin-top: 25px; width: 600px; height: 300px" />
+                </div>
               </p>
-            </div>
-            <div class="card-footer">
-              <a class="btn btn-primary btn-sm bg-secondary" href="https://github.com/castlejun-2/CELEB">More Info</a>
             </div>
           </div>
         </div>
-        <div class="col-md-4 mb-5">
+        <div style="width: 100%" class="col-md-4 mb-5">
           <div class="card h-100">
             <div class="card-body">
               <h2 class="card-title">🤝OMG🤝</h2>
@@ -170,7 +173,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4 mb-5">
+        <div style="width: 100%" class="col-md-4 mb-5">
           <div class="card h-100">
             <div class="card-body">
               <h2 class="card-title">👊RESPECT👊</h2>
@@ -188,13 +191,10 @@
         </div>
       </div>
     </div>
-    <!-- Footer-->
     <footer class="py-5 bg-dark">
       <div class="container px-4 px-lg-5"><p class="m-0 text-center text-white">Copyright &copy; 이성준 2022</p></div>
     </footer>
-    <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/scripts.js"></script>
-    <!-- Core theme JS-->
   </body>
 </html>
